@@ -1,0 +1,14 @@
+C
+C B 
+C B A
+void alphaTriangle(int n) {
+    // Write your code here.
+     for(int i=n;i>=1;i--)
+    {
+        for(int j=n;j>=i;j--)
+        {
+            cout<<(char)(j+64)<<" ";
+        }
+        cout<<endl;
+    }
+}
